@@ -46,7 +46,7 @@
 
     /*shadow when not hovering oner the card*/
 
-        /*
+        
         .atvImg-shadow {
             position: absolute;
             top: 5%; 
@@ -56,15 +56,15 @@
             transition: all 0.2s ease-out;
             box-shadow: 0 8px 30px rgba(14,21,47,0.6);
         }
-        */
+        
 
 
     /*Shadow when hovering over the card (This wouldn't work if the previous one is disabled*/
-        /*
+        
         .atvImg-container.over .atvImg-shadow {
             box-shadow: 0 45px 100px rgba(14,21,47,0.4), 0 16px 40px rgba(14,21,47,0.4);
         }
-    */
+    
 
 
 /*Shine Effect*/

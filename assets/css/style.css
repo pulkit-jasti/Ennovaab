@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 *{
-  /*font-family: 'Josefin Sans', sans-serif !important;*/
+  font-family: 'Josefin Sans', sans-serif !important;
 }
 
 /*--------------------------------------------------------------
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 8rem;
   color: rgba(255, 255, 255, 0);
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   -webkit-text-stroke: 3px white;
 }
 
@@ -457,13 +457,15 @@ section {
   text-transform: capitalize;
   font-size: 7rem;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   color: rgba(255, 255, 255, 0);
   -webkit-text-stroke: 3px var(--gray);
 }
 
 .section-title span{
   -webkit-text-stroke: 3px var(--secondary-color);
+  font-size: 10rem;
+  margin-left: 7px;
 }
 
 /*--------------------------------------------------------------
