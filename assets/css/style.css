@@ -467,8 +467,7 @@ section {
 
 .section-title{
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 10% 0 20% 0;
   text-transform: capitalize;
   font-size: 9vw;
   font-weight: 700;
@@ -505,11 +504,11 @@ section {
 }
 
 .about .container .text-wrapper{
-  padding: 0 10%;
+  padding: 0 6%;
 }
-
+/*
 .about .container .text-wrapper h1{
-  margin-top: 100px;
+  margin-top: 0px;
   font-size: 6rem;
   font-weight: 700;
   font-family: "Poppins", sans-serif;
@@ -520,9 +519,10 @@ section {
 .about .container .text-wrapper h1 span{
   -webkit-text-stroke: 3px var(--gray);
 }
-
+*/
 .about .container .text-wrapper h2{
-  margin: 100px 0 60px 0;
+  margin-bottom:60px;
+  font-size: 8vw;
 }
 
 .about .container .text-wrapper p{
@@ -535,7 +535,9 @@ section {
   font-weight: 700;
 }
 
-
+@media (max-width: 768px){
+  
+}
 
 /*--------------------------------------------------------------
 # Services
