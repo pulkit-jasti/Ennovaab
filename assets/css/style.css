@@ -32,6 +32,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif !important;
 }
 
+@media (max-width: 768px){
+  .cursor{
+    display: none;
+  }
+
+  html{
+    cursor: default;
+  }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -495,7 +505,7 @@ section {
 }
 
 .about .container .text-wrapper{
-  padding: 0 100px;
+  padding: 0 10%;
 }
 
 .about .container .text-wrapper h1{
