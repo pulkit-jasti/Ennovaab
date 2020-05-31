@@ -98,6 +98,10 @@
   .events .timeline .timeline::after {
   left: 31px;
   }
+
+  .events .timeline::after{
+    left: 28px;
+  }
   
   /* Full-width containers */
   .events .timeline .container-{

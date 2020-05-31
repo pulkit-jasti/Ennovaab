@@ -506,20 +506,7 @@ section {
 .about .container .text-wrapper{
   padding: 0 6%;
 }
-/*
-.about .container .text-wrapper h1{
-  margin-top: 0px;
-  font-size: 6rem;
-  font-weight: 700;
-  font-family: "Poppins", sans-serif;
-  color: rgba(255, 255, 255, 0);
-  -webkit-text-stroke: 3px var(--secondary-color);
-}
 
-.about .container .text-wrapper h1 span{
-  -webkit-text-stroke: 3px var(--gray);
-}
-*/
 .about .container .text-wrapper h2{
   margin-bottom:60px;
   font-size: 8vw;
