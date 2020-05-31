@@ -456,7 +456,7 @@ section {
   margin-top: 100px;
   margin-bottom: 100px;
   text-transform: capitalize;
-  font-size: 7rem;
+  font-size: 9vw;
   font-weight: 700;
   font-family: "Poppins", sans-serif !important;
   color: rgba(255, 255, 255, 0);
@@ -465,10 +465,23 @@ section {
 
 .section-title span{
   -webkit-text-stroke: 3px var(--secondary-color);
-  font-size: 10rem;
+  font-size: 12vw;
   margin-left: 7px;
 }
 
+@media (max-width: 768px){
+  .section-title{
+    -webkit-text-stroke: unset;
+    color: var(--gray);
+    font-size: 12vw;
+  }
+
+  .section-title span{
+    -webkit-text-stroke: unset;
+    color: var(--secondary-color);
+    font-size: 20vw;
+  }
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
