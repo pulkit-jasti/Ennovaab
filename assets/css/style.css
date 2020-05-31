@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0;
-  font-size: 8rem;
+  font-size: 9vw;
   font-weight: 700;
   line-height: 8rem;
   color: rgba(255, 255, 255, 0);
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 span {
   color: rgba(255, 197, 81, 0);
-  font-size: 13rem;
+  font-size: 13vw;
   -webkit-text-stroke-color: var(--secondary-color);
 }
 
@@ -430,12 +430,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero {
-    height: auto;
-  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
+    -webkit-text-stroke: unset;
+    color: white;
   }
   #hero h2 {
     font-size: 20px;
