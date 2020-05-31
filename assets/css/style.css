@@ -420,7 +420,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: rgba(255, 255, 255, 0.9);
   margin: 50px 0 0 0;
-  font-size: 2rem;
+  font-size: 2.3vw;
 }
 
 @media (min-width: 1024px) {
@@ -431,13 +431,18 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero h1 {
-    font-size: 28px;
     line-height: 36px;
     -webkit-text-stroke: unset;
     color: white;
   }
+
+  #hero h1 span{
+    -webkit-text-stroke: unset;
+    color: var(--secondary-color);
+  }
+
   #hero h2 {
-    font-size: 20px;
+    font-size: 6vw;
     line-height: 24px;
   }
 }
