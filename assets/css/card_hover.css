@@ -6,6 +6,12 @@
     display: block;
 }
 
+@media (max-width: 576px){
+    .cover{
+        width: 100%;
+    }
+}
+
 
 /* Do Not change this part of the code unless you know what you're doing */
 

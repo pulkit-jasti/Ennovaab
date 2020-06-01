@@ -124,6 +124,10 @@
   }
 
   .events .timeline .left{
+    text-align: justify;
+  }
+
+  .events .timeline .left .text-wrapper h2{
     text-align: left;
   }
 
