@@ -123,6 +123,10 @@
   left: 15px;
   }
 
+  .events .timeline .container- .text-wrapper h2{
+    font-size: 2rem;
+  }
+
   .events .timeline .left{
     text-align: justify;
   }
