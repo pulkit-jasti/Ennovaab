@@ -2,25 +2,34 @@
     margin: 3% 0;
 }
 
-.container{
+
+.blog-container{
+
+    *{
+        transition-duration: 100ms;
+        animation-duration: 100ms;
+    }
 
     .row{
         flex-wrap: wrap;
         justify-content: center;
-        //background-color: lightgreen;
 
         .col-md-4{
             padding: 40px;
             min-height: 200px;
             min-width: 360px;
-            //margin-bottom: 0px;
-            //background-color: lightblue;
-            //padding: 50px;
+
+            a,a:visited,a:hover{
+                color: black;
+                text-decoration: none;
+            }
 
             .blog-wrapper{
                 height: 100%;
                 width: 100%;
-                //background-color: lightsalmon;
+                position: relative;
+                transition-duration: 100ms;
+                animation-duration: 100ms;
 
                 .tag,.author{
                     text-transform: capitalize;
@@ -48,7 +57,14 @@
                     text-align: justify;
                     margin: 20px 0;
                 }
-                
+
+                &:hover{
+                    top: -30px;
+                }
+            }
+
+            &:hover{
+                margin-bottom: 20px !important;
             }
         }
     }
