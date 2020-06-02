@@ -65,14 +65,6 @@
   margin: 20px 0;
 }
 
-.blog-container .row .col-md-4 .blog-wrapper:hover {
-  top: -30px;
-}
-
-.blog-container .row .col-md-4:hover {
-  margin-bottom: 20px !important;
-}
-
 @media (max-width: 768px) {
   .container .row .col-md-4 .blog-wrapper figure {
     height: 300px;
