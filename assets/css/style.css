@@ -25,6 +25,10 @@ a:hover {
   text-decoration: none;
 }
 
+html{
+  cursor: default;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
@@ -191,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -515,7 +519,7 @@ section {
 .about .container .text-wrapper p{
   text-align: justify;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .about .container .text-wrapper p span{
@@ -679,6 +683,7 @@ section {
   width: 100%;
   background: #fff;
   margin-bottom: 50px;
+  /*font-weight: 400;*/
 }
 
 .contact .info i {
@@ -706,7 +711,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 20px;
   color: #484848;
 }
 
