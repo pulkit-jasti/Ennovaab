@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 9px 0;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -161,7 +161,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 35px;
+  max-height: 30px;
+}
+
+#header .logo span{
+  margin-left: 2px;
+  font-size: 40px;
+  color: var(--accent-color);
 }
 
 /*--------------------------------------------------------------
