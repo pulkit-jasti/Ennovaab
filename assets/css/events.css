@@ -42,7 +42,7 @@
   height: 25px;
   right: -13px;
   background-color: var(--line-color);
-  border: 4px solid var(--secondary-color);
+  border: 4px solid var(--accent-color);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
