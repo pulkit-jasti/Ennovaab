@@ -1,5 +1,9 @@
 .section-title {
-  margin: 3% 0;
+  margin: 120px 0 20px 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .blog-container * {
