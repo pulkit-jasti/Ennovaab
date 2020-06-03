@@ -6,7 +6,8 @@
 --------------------------------------------------------------*/
 :root{
   --gray:#343436;
-  --secondary-color:#ffc451;
+  /*--secondary-color:#ffc451;*/
+  --accent-color:lightblue;
 }
 
 
@@ -15,9 +16,13 @@ body {
   color: #444444;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 
 a {
-  color: #ffc451;
+  color: var(--secondary-color);
 }
 
 a:hover {
@@ -67,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: var(--secondary-color);
+  background: var(--accent-color);
   color: #151515;
   transition: all 0.4s;
 }
@@ -153,19 +158,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 700;
   letter-spacing: 2px;
-  /*text-transform: uppercase;*/
-}
-
-#header .logo a {
-  color: #fff;
-}
-
-#header .logo a span {
-  color: var(--secondary-color);
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 35px;
 }
 
 /*--------------------------------------------------------------
