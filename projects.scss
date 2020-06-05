@@ -73,7 +73,7 @@
 
                                     .team{
                                         background-color: rgba(0, 0, 0, 0);
-                                        padding: 0 !important;
+                                        padding: 0 0 0 15px !important;
                                         text-transform: capitalize;
                                     }
                                 }
@@ -100,7 +100,11 @@
 
         .right{
             //background-color: lightblue;
-            padding: 50px 20px !important;
+            padding: 50px 30px !important;
+        }
+
+        .carousel-control-next,.carousel-control-prev{
+            display: none !important;
         }
     }
 }
