@@ -1,0 +1,13 @@
+.projects{
+    height: 85vh;
+    width: 100%;
+    background-color: lightblue;
+    padding: 0 !important;
+}
+
+.projects .container{
+    margin: 0 !important;
+    height: 100%;
+    width: 100%;
+    background-color: lightpink;
+}

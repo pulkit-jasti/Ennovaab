@@ -1,0 +1,106 @@
+
+
+.projects{
+    //height: 88vh;
+    width: 100%;
+    //background-color: lightblue;
+    padding: 0;
+
+    .container-fluid{
+        //height: 100%;
+        width: 100%;
+        padding: 0;
+        //background-color: lightgreen;
+
+        .carousel{
+            //height: 100%;
+
+            .carousel-control-next{
+                right: -3.5%;
+            }
+
+            .carousel-control-prev{
+                left: -3.5%;
+            }
+
+
+            .carousel-inner{
+                //height: 100%;
+
+                .carousel-item{
+                    background-image: url(assets/images/blogs/golden-gate.jpg);
+                    background-size: cover;
+
+                    .project-wrapper{
+                        height: 100%;
+                        width: 100%;
+                        background: rgba(0,0,0,0.5);
+                        backdrop-filter: saturate(180%) blur(20px);
+                        -webkit-backdrop-filter: saturate(180%) blur(100px);
+
+                        .container{
+                            //height: 100%;
+                            //background-color: lightsalmon;
+
+                            .row{
+                                color: white;
+
+                                .left{
+                                    //height: 100vh;
+                                    //background-color: lightgreen;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    img{
+                                        height: 80vh;
+                                        //width: 100%;
+                                    }
+                                }
+
+                                .right{
+                                    padding: 70px 50px 70px 0;
+                                    //background-color: lightpink;
+
+                                    .website{
+                                        margin: 20px 0;
+                                    }
+
+                                    .project-info{
+                                        text-align: justify;
+                                        margin: 30px 0;
+                                    }
+
+                                    .team{
+                                        background-color: rgba(0, 0, 0, 0);
+                                        padding: 0 !important;
+                                        text-transform: capitalize;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    .projects{
+
+        .left{
+            padding-top: 40px;
+            img{
+                height: unset !important;
+                width: 90%;
+            }
+        }
+
+        .right{
+            //background-color: lightblue;
+            padding: 50px 20px !important;
+        }
+    }
+}
