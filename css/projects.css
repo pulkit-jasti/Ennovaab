@@ -11,13 +11,13 @@
 .projects .container-fluid .carousel .carousel-control-next {
   right: -3.5%;
   width: 40%;
-  cursor: url("../cursor/arrow_right_white.png"), auto;
+  cursor: url("../assets/images/cursor/arrow_right_white.png"), auto;
 }
 
 .projects .container-fluid .carousel .carousel-control-prev {
   left: -3.5%;
   width: 40%;
-  cursor: url("../cursor/arrow_left_white.png"), auto;
+  cursor: url("../assets/images/cursor/arrow_left_white.png"), auto;
 }
 
 .projects .container-fluid .carousel .carousel-inner {
@@ -28,7 +28,9 @@
 .projects .container-fluid .carousel .carousel-inner .carousel-item {
   background-size: cover;
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+          backdrop-filter: saturate(180%) blur(20px);
+  background-position: bottom;
   -webkit-backdrop-filter: saturate(180%) blur(100px);
 }
 
@@ -63,6 +65,10 @@
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right {
   padding: 70px 50px 70px 0;
+}
+
+.projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .project-title, .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right span {
+  text-transform: uppercase;
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .website {

@@ -20,14 +20,14 @@
                 right: -3.5%;
                 //background-color: lightblue;
                 width: 40%;
-                cursor: url('../cursor/arrow_right_white.png'), auto;
+                cursor: url('../assets/images/cursor/arrow_right_white.png'), auto;
             }
 
             .carousel-control-prev{
                 left: -3.5%;
                 //background-color: lightblue;
                 width: 40%;
-                cursor: url('../cursor/arrow_left_white.png'), auto;
+                cursor: url('../assets/images/cursor/arrow_left_white.png'), auto;
             }
 
 
@@ -39,6 +39,7 @@
                     background-size: cover;
                     background: rgba(0,0,0,0.5);
                     backdrop-filter: saturate(180%) blur(20px);
+                    background-position: bottom;
                     -webkit-backdrop-filter: saturate(180%) blur(100px);
 
                     .project-wrapper{
@@ -69,6 +70,10 @@
                                 .right{
                                     padding: 70px 50px 70px 0;
                                     //background-color: lightpink;
+
+                                    .project-title,span{
+                                        text-transform: uppercase;
+                                    }
 
                                     .website{
                                         position: relative;
