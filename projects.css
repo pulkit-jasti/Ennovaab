@@ -10,10 +10,14 @@
 
 .projects .container-fluid .carousel .carousel-control-next {
   right: -3.5%;
+  width: 40%;
+  cursor: url("cursor/arrow_right_white.png"), auto;
 }
 
 .projects .container-fluid .carousel .carousel-control-prev {
   left: -3.5%;
+  width: 40%;
+  cursor: url("cursor/arrow_left_white.png"), auto;
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item {
@@ -54,6 +58,8 @@
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .website {
+  position: relative;
+  z-index: 10000;
   margin: 20px 0;
 }
 

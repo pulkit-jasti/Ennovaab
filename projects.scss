@@ -16,11 +16,18 @@
             //height: 100%;
 
             .carousel-control-next{
+                //position: relative !important;
                 right: -3.5%;
+                //background-color: lightblue;
+                width: 40%;
+                cursor: url('cursor/arrow_right_white.png'), auto;
             }
 
             .carousel-control-prev{
                 left: -3.5%;
+                //background-color: lightblue;
+                width: 40%;
+                cursor: url('cursor/arrow_left_white.png'), auto;
             }
 
 
@@ -63,6 +70,8 @@
                                     //background-color: lightpink;
 
                                     .website{
+                                        position: relative;
+                                        z-index: 10000;
                                         margin: 20px 0;
                                     }
 
