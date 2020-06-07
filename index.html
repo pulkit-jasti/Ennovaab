@@ -236,31 +236,37 @@
     </section>
 
 
+
+    <!-- ======= Projects Section ======= -->
+
     <section id="projects" class="projects">
       
       <h2 class="section-title">Projects<span>.</span></h2>
       <div class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-touch="true">
+          
+          <!--Indicators-->
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
 
-
+          <!--Main carousel-->
           <div class="carousel-inner">
-            <div class="carousel-item active">
+
+            <div id="firstSlide" class="carousel-item active">
               <div class="project-wrapper">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-6 left">
-                      <img class=".group-photo" src="assets/images/projects/enrio.png" alt="">
+                      <img class=".group-photo" src="assets/images/projects/mini-project logos/enrio.png" alt="">
                     </div>
                     <div class="col-md-6 right">
                       <div class="text-wrapper">
                         <h2 class="project-title">Enrio</h2>
-                        <h5 class="motto">Motto: "One-stop destination for all Necessities"</h5>
-                        <h6 class="website">Website: <a href="https://github.com/pollucheck/pollucheck.io">https://github.com/pollucheck/pollucheck.io</a></h6>
+                        <h5 class="motto"><span>Motto:</span> "One-stop destination for all Necessities"</h5>
+                        <h6 class="website"><span>Website:</span> <a href="#">www.sample.com</a></h6>
                         <p class="project-info">
                           <span>enrio</span>, A "Rent In and Out" platform for the students of SRM University AP, 
                           which will provide you with your necessities on rent during the college working 
@@ -274,7 +280,7 @@
                           accessible by other universities for their own needful purposes and extend the 
                           time limit so that we can use it anytime and anywhere.
                         </p>
-                        <h4>Team Members</h4>
+                        <h4><span>Team Members</span></h4>
                         <ul class="team">
                           <li>pragya</li>
                           <li>naveen</li>
@@ -288,7 +294,7 @@
               </div>
             </div>
 
-            <div class="carousel-item">
+            <div id="secondSlide" class="carousel-item">
               <div class="project-wrapper">
                 <div class="container">
                   <div class="row">
@@ -298,8 +304,8 @@
                     <div class="col-md-6 right">
                       <div class="text-wrapper">
                         <h2 class="project-title">Ennote</h2>
-                        <h5 class="motto">Motto: "Unifying SRMAP’s communication platform"</h5>
-                        <h6 class="website">Website: <a href="https://github.com/pollucheck/pollucheck.io">https://github.com/pollucheck/pollucheck.io</a></h6>
+                        <h5 class="motto"><span>Motto:</span> "Unifying SRMAP’s communication platform"</h5>
+                        <h6 class="website"><span>Website:</span> <a href="#">www.sample.com</a></h6>
                         <p class="project-info">
                           <span>ennote</span> is a one-stop platform for students and faculty members that provides 
                           students with various features to help them excel in their respective fields 
@@ -313,7 +319,7 @@
                           faculty notes, student notes, assignments, assignment solutions, quizzes and 
                           dates synced to GoogleCalender in one app.
                         </p>
-                        <h4>Team Members</h4>
+                        <h4><span>Team Members</span></h4>
                         <ul class="team">
                           <li>himansh</li>
                           <li>suman</li>
@@ -336,8 +342,8 @@
                     <div class="col-md-6 right">
                       <div class="text-wrapper">
                         <h2 class="project-title">Entune</h2>
-                        <h5 class="motto">Motto: "The strings of a guitar are poetry. "</h5>
-                        <h6 class="website">Website: <a href="https://github.com/pollucheck/pollucheck.io">https://github.com/pollucheck/pollucheck.io</a></h6>
+                        <h5 class="motto"><span>Motto:</span> "The strings of a guitar are poetry. "</h5>
+                        <h6 class="website"><span>Website:</span> <a href="#">www.sample.com</a></h6>
                         <p class="project-info">
                           <span>entune</span> is a mini-project which aims at providing guitar 
                           lessons to the students of our university who are keen to learn the instrument 
@@ -346,7 +352,7 @@
                           those who don’t own a guitar yet. Our tie-up with the music club aids us in 
                           providing guitars to all those who are interested to learn.
                         </p>
-                        <h4>Team Members</h4>
+                        <h4><span>Team Members</span></h4>
                         <ul class="team">
                           <li>swikriti</li>
                           <li>kavya</li>
@@ -358,18 +364,14 @@
                 </div>
               </div>
             </div>
+
           </div>
 
 
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <!--<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>-->
-          </a>
-
-          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <!--<span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>-->
-          </a>
+          <!--Left and right buttons-->
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev"></a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next"></a>
+        
         </div>
       </div>
     </section>
@@ -653,6 +655,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.0/paper-core.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
   <script src="js/card_hover.js"></script>
+  <script src="js/projects.js"></script>
 
 </body>
 

@@ -1,89 +1,88 @@
-
+@mixin bck-blur {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-position: bottom;
+    -webkit-backdrop-filter: saturate(180%) blur(100px);
+}
 
 .projects{
-    //height: 88vh;
     width: 100%;
-    //background-color: lightblue;
     padding: 0;
 
     .container-fluid{
-        //height: 100%;
         width: 100%;
         padding: 0;
-        //background-color: lightgreen;
+        background-image: url('../assets/images/projects/backgrounds/background-2.jpg');
+        background-attachment: fixed;
+        background-size: cover;
 
         .carousel{
-            //height: 100%;
 
             .carousel-control-next{
-                //position: relative !important;
                 right: -3.5%;
-                //background-color: lightblue;
                 width: 40%;
                 cursor: url('../assets/images/cursor/arrow_right_white.png'), auto;
             }
 
             .carousel-control-prev{
                 left: -3.5%;
-                //background-color: lightblue;
                 width: 40%;
                 cursor: url('../assets/images/cursor/arrow_left_white.png'), auto;
             }
 
 
             .carousel-inner{
-                background-image: url('../assets/images/blogs/golden-gate.jpg');
-                background-attachment: fixed;
+                @include bck-blur();
 
                 .carousel-item{
-                    background-size: cover;
-                    background: rgba(0,0,0,0.5);
-                    backdrop-filter: saturate(180%) blur(20px);
-                    background-position: bottom;
-                    -webkit-backdrop-filter: saturate(180%) blur(100px);
-
+                    height: 130vh;
+                    
                     .project-wrapper{
                         height: 100%;
                         width: 100%;
+                        display: flex;
+                        align-items: center;
 
                         .container{
-                            //height: 100%;
-                            //background-color: lightsalmon;
-                            padding: 100px 0;
+                            //padding: 100px 0;
 
                             .row{
                                 color: white;
 
                                 .left{
-                                    //height: 100vh;
-                                    //background-color: lightgreen;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
 
                                     img{
                                         height: 80vh;
-                                        //width: 100%;
                                     }
                                 }
 
                                 .right{
-                                    padding: 70px 50px 70px 0;
-                                    //background-color: lightpink;
+                                    //padding: 70px 50px 70px 0;
 
-                                    .project-title,span{
+                                    .project-title{
                                         text-transform: uppercase;
+                                        font-weight: 700;
+                                    }
+
+                                    span{
+                                        font-weight: 700;
                                     }
 
                                     .website{
                                         position: relative;
-                                        z-index: 10000;
                                         margin: 20px 0;
                                     }
 
                                     .project-info{
                                         text-align: justify;
                                         margin: 30px 0;
+
+                                        span{
+                                            text-transform: uppercase;
+                                        }
                                     }
 
                                     .team{
@@ -105,6 +104,10 @@
 @media (max-width: 768px){
     .projects{
 
+        .carousel-item{
+            height: unset !important;
+        }
+
         .container{
             padding: 0 !important;
         }
@@ -118,7 +121,6 @@
         }
 
         .right{
-            //background-color: lightblue;
             padding: 60px 10% !important;
         }
 

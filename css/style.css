@@ -148,7 +148,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0,0,0,0.8);
+                    backdrop-filter: saturate(180%) blur(20px);
+                    background-position: bottom;
+                    -webkit-backdrop-filter: saturate(180%) blur(100px);
 }
 
 #header .logo {

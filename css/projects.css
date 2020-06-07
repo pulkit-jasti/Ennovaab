@@ -6,6 +6,9 @@
 .projects .container-fluid {
   width: 100%;
   padding: 0;
+  background-image: url("../assets/images/projects/backgrounds/background-2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .projects .container-fluid .carousel .carousel-control-next {
@@ -21,12 +24,6 @@
 }
 
 .projects .container-fluid .carousel .carousel-inner {
-  background-image: url("../assets/images/blogs/golden-gate.jpg");
-  background-attachment: fixed;
-}
-
-.projects .container-fluid .carousel .carousel-inner .carousel-item {
-  background-size: cover;
   background: rgba(0, 0, 0, 0.5);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
           backdrop-filter: saturate(180%) blur(20px);
@@ -34,13 +31,19 @@
   -webkit-backdrop-filter: saturate(180%) blur(100px);
 }
 
+.projects .container-fluid .carousel .carousel-inner .carousel-item {
+  height: 130vh;
+}
+
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper {
   height: 100%;
   width: 100%;
-}
-
-.projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container {
-  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row {
@@ -63,23 +66,27 @@
   height: 80vh;
 }
 
-.projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right {
-  padding: 70px 50px 70px 0;
+.projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .project-title {
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
-.projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .project-title, .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right span {
-  text-transform: uppercase;
+.projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right span {
+  font-weight: 700;
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .website {
   position: relative;
-  z-index: 10000;
   margin: 20px 0;
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .project-info {
   text-align: justify;
   margin: 30px 0;
+}
+
+.projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .project-info span {
+  text-transform: uppercase;
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .team {
@@ -89,6 +96,9 @@
 }
 
 @media (max-width: 768px) {
+  .projects .carousel-item {
+    height: unset !important;
+  }
   .projects .container {
     padding: 0 !important;
   }
