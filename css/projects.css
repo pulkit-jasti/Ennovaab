@@ -63,7 +63,7 @@
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .left img {
-  height: 80vh;
+  width: 80%;
 }
 
 .projects .container-fluid .carousel .carousel-inner .carousel-item .project-wrapper .container .row .right .project-title {
