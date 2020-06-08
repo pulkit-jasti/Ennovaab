@@ -15,8 +15,7 @@ $accent-color:#4090bb;
         width: 100%;
         height: 60px;
         padding-top: 15px;
-        z-index: 10;
-        //background-color: lightcoral;
+        z-index: 10000 !important;
         background: rgba(0,0,0,0.8);
         backdrop-filter: saturate(180%) blur(20px);
         -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -45,7 +44,6 @@ $accent-color:#4090bb;
                 margin-right: 50px;
                 padding: 0;
                 display: flex;
-                //align-items: baseline;
 
                 img{
                     height: 65%;
@@ -201,7 +199,6 @@ $accent-color:#4090bb;
 
         &.menu-opened {
             height: 100%;
-            //background-color: #000;
             transition: all 0.3s ease-in, background 0.5s ease-in;
             transition-delay: 0.25s;
             .burger-container {
@@ -239,14 +236,3 @@ $accent-color:#4090bb;
         }
     }
 }
-    
-
-/*@media(max-width: 600px) {
-        width: 100%;
-        height: 100vh;
-        margin: 0;
-        border-radius: 0px;
-        .header {
-            position: fixed;
-        }
-    }*/
