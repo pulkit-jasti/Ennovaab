@@ -1,3 +1,3 @@
-# Ennovab New Website
+# Ennovab
 
-## Link: https://pulkit-jasti.github.io/Ennovaab/
+https://ennovab.tech
